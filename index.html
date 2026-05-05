@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Estacionamento</title>
+
+  <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<div class="container">
+  <h1>Estacionamento</h1>
+
+  <div class="conteudo">
+
+    <!-- LADO ESTACIONAMENTO -->
+    <div class="lado">
+      <h2>Estacionamento</h2>
+      <input type="text" id="placa" placeholder="Digite a placa">
+      <button onclick="adicionarCarro()">Adicionar</button>
+      <ul id="lista-carros"></ul>
+    </div>
+
+    <!-- LADO HISTÓRICO -->
+    <div class="lado">
+      <h2>Histórico</h2>
+  <button onclick="limparHistorico()">Limpar Historico</button>
+      <ul id="historico"></ul>
+    </div>
+
+  </div>
+</div>
+<h2>Caixa: R$ <span id="caixa">0</span></h2>
+<script src="script.js"></script>
+
+</body>
+</html>

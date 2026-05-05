@@ -1,0 +1,114 @@
+.placa {
+    display: inline-block;
+    background: #fff;
+    color: #bfb9b9;
+    font-weight: bold;
+    font-size: 18px;
+    letter-spacing: 3px;
+    padding: 5px 10px;
+    border: 2px solid #000;
+    border-radius: 6px;
+    text-transform: uppercase;  
+    font-family: monospace;
+}
+
+
+body {
+      font-family: Arial, sans-serif;
+      background: linear-gradient(135deg, #423d74, #0f23a7);
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+    }
+
+    .container {
+      background: rgba(114, 66, 66, 0);
+      margin-top: 40px;
+      padding: 20px;
+      border-radius: 15px;
+      width: 400px;
+      box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+    }
+
+    h1 {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
+    input {
+      width: 70%;
+      padding: 10px;
+      border-radius: 8px;
+      border: 1px solid #9c0a0ab9;
+    }
+
+    button {
+      padding: 10px;
+      border: none;
+      border-radius: 8px;
+      background: #8a4cc8;
+      color: white;
+      cursor: pointer;
+      transition: 0.3s;
+    }
+
+    button:hover {
+      background: #007bff;
+    }
+
+    ul {
+      list-style: none;
+      padding: 0;
+    }
+
+    li {
+      background: #f5f5f5;
+      margin-top: 10px;
+      padding: 10px;
+      border-radius: 10px;
+    }
+
+    .carro-info {
+      font-size: 14px;
+      margin-bottom: 5px;
+    }
+
+    .valor {
+      color: rgb(128, 0, 105);
+      font-weight: bold;
+    }
+
+    .tempo {
+      color: #02020f;
+    }
+
+    .btn-sair {
+      background: #ff4d4d;
+      margin-top: 5px;
+    }
+
+    .btn-sair:hover {
+      background: #cc0000;
+    }
+
+    hr {
+      border: none;
+      height: 1px;
+      background: #ddd;
+     margin: 15px 0;
+    }
+.conteudo {
+  display: flex;
+  gap: 20px;
+}
+
+.lado {
+  flex: 1;
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+ul {
+  max-height: 800px;
+  overflow-y: auto;
+}
