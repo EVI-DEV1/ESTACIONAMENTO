@@ -72,6 +72,7 @@ Atualização em tempo real
 Clone o repositório:
 
 git clone https://github.com/EVI-DEV1/ESTACIONAMENTO
+
 Acesse a pasta do projeto:
 
 cd seu-repo
@@ -127,7 +128,6 @@ Organização de código
 
 ⬡ Interface mais moderna
 
-⬡ Modo escuro
 
 
 
@@ -135,7 +135,7 @@ Organização de código
 
 ⬡ *Autoria*
 
-Desenvolvido por EVI-DEV1 © 2026
+Desenvolvido por *EVI-DEV1* © 2026
 
 Projeto criado com foco em prática, lógica de programação e evolução no desenvolvimento front-end.
 
