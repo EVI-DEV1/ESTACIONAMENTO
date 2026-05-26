@@ -84,7 +84,6 @@ Abra o arquivo index.html no navegador:
 
 
 ---
-
 ⬡ *Destaques*
 
 ⬢ Lógica aplicada de forma prática
